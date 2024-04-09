@@ -7,28 +7,29 @@ Alguns scripts criados para o servidor de FiveM Brascity
 ## Status
 🚧 Cancelado
 
-## BCCarros:
+# BCCarros:
  
-# Carros
+## Carros
  
 /addcarros [nomedoveiculo] [jogadorID] (checa max garagem)
 /remcarros [nomedoveiculo] [jogadorID]
 /limparcarros [jogadorID] (exibe confirmação)
 /listarcarros [jogadorID]
  
-** Garagem **
+## Garagem
  
 /addgaragem [jogadorID] [Removido: Não existe porque depende da permissão / aqui daria para vender o slot separado, mas ai precisaria persistir]
 /remgaragem [jogadorID] [Removido: Não existe porque depende da permissão]
 /listarslotsgaragem [jogadorID] (Usa o ChecarMaxGaragem())
  
-** Utility **
+## Utility
  
 /checarmaxgaragem [jogadorID]
 /listarslotsgaragem [jogadorID]
 /contarcarros [jogadorID]
 
-ADICIONAR CARRO
+## Adicionar Carro
+
 -Adicionar carro /addcarro [nomedoveiculo] [iddojogador]
 -Desc: O comando é usado por admin para adicionar um carro para um jogador, esse carro vai para a garagem [OK]
 -É necessário verificar se o jogador possui espaço na garagem para receber esse carro [Função: ChecarMaxGaragem()] [OK]
