@@ -7,7 +7,7 @@ Alguns scripts criados para o servidor de FiveM Brascity
 ## Status
 🚧 Cancelado
 
-# BCCarros:
+# BCCarros
  
 ## Carros
  
@@ -36,3 +36,15 @@ Alguns scripts criados para o servidor de FiveM Brascity
 -Essa verificação consulta a permissão do jogador, que define a quantidade maxima de slots da garagem [Função: QuantidadeCarros <= ChecarMaxGaragem()] [OK]
 -Verifica também quantos carros o jogador tem na garagem, para saber se ele já atingiu o limite [OK]
 -Não precisa persistir os dados [OK]
+
+# BCGrupos
+
+O sistema de grupo deve: 
+- Adiciona grupo player
+- Remove grupo player
+- Lista grupo player
+- Mostrar todos os cargos hospital
+- Mostrar todos os cargos policia
+
+## Comando
+gruposadd [id_do_player] [nomedogrupo]
