@@ -11,22 +11,22 @@ Alguns scripts criados para o servidor de FiveM Brascity
  
 ## Carros
  
-/addcarros [nomedoveiculo] [jogadorID] (checa max garagem)
-/remcarros [nomedoveiculo] [jogadorID]
-/limparcarros [jogadorID] (exibe confirmação)
-/listarcarros [jogadorID]
+- /addcarros [nomedoveiculo] [jogadorID] (checa max garagem)
+- /remcarros [nomedoveiculo] [jogadorID]
+- /limparcarros [jogadorID] (exibe confirmação)
+- /listarcarros [jogadorID]
  
 ## Garagem
  
-/addgaragem [jogadorID] [Removido: Não existe porque depende da permissão / aqui daria para vender o slot separado, mas ai precisaria persistir]
-/remgaragem [jogadorID] [Removido: Não existe porque depende da permissão]
-/listarslotsgaragem [jogadorID] (Usa o ChecarMaxGaragem())
+- /addgaragem [jogadorID] [Removido: Não existe porque depende da permissão / aqui daria para vender o slot separado, mas ai precisaria persistir]
+- /remgaragem [jogadorID] [Removido: Não existe porque depende da permissão]
+- /listarslotsgaragem [jogadorID] (Usa o ChecarMaxGaragem())
  
 ## Utility
  
-/checarmaxgaragem [jogadorID]
-/listarslotsgaragem [jogadorID]
-/contarcarros [jogadorID]
+- /checarmaxgaragem [jogadorID]
+- /listarslotsgaragem [jogadorID]
+- /contarcarros [jogadorID]
 
 ## Adicionar Carro
 
@@ -48,3 +48,11 @@ O sistema de grupo deve:
 
 ## Comando
 gruposadd [id_do_player] [nomedogrupo]
+
+# BCLogo
+
+Adiciona logo personalizado centralizado no topo da tela do jogador
+
+# BCInstagram
+
+Snippet de gerenciamento de permissão para celular vRP
